@@ -1,0 +1,59 @@
+/* Patrones Globales */
+
+/* Eliminar margen por defecto del BODY */
+body { margin: 0; }
+
+/* Titulos principales y subtitulos: Barlow */
+h1, h2, h3, h4 { font-family: 'Barlow', sans-serif; }
+
+/* Subtitulos H6: Permanet Marker */
+h6 { font-family: 'Permanent Marker', cursive; }
+
+/* Parrafos, Enlaces, Etiquetas y Formularios: Roboto */
+h5, p, a, span, form, input, select, textarea, option, button, div { font-family: 'Roboto', sans-serif; }
+
+/* Propiedad display: block; a todas las cajas de esctrutura para que se comporten como cajas */
+header, main, section, footer, article, figure, figcaption, nav, div { display: block; }
+
+/* Quitar margen que traen por defecto los titulos, subtitulos y parrafos */
+h1, h2, h3, h4, h5, p, figure { margin: 0; }
+
+
+/* Estilo Propio */
+
+
+
+/* Componente Header Logo y Menu */
+header { width: 100%; height: 90px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99999; background: #fff; background-size: cover; }
+
+header article { width: 1053px; height: 90px; margin: 0 auto; float: none; position: relative }
+
+header article figure { width: 94px; height: 110px; margin: 0; float: left; position: relative; }
+
+header article figure a { width: 158px; height: 110px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ; }
+
+header article figure a img { width: 49%; height: 81px; margin: 0 auto; float: none; position: relative;
+ display: block; top: 3px; }
+
+header article figure a:hover { transform: scale(1.02); transition: all 0.3s ease-in; }
+
+header article nav { width: 443px; height: 40px; margin: 22px 0; float: right; position: relative; }
+
+header article nav a {  width: auto; height: auto; margin: 0 15px; float: left; position: relative; display: block; padding: 10px 0; text-decoration: none; color: #000; font-weight: 400; font-size: 1.05em; line-height: 1em; transition: all 0.3s ease-in }
+header article nav a:hover { color: rgb(0, 0, 0); transition: all 0.3s ease-in; border-radius: 5px border rgb(7, 243, 7); background-color: rgb(7, 243, 7);}
+
+
+
+/* Caja Main */
+main { }
+
+
+/* Componente Footer Logo al Centro */
+footer { width: 100%; height: 200px; margin: 0; float: none; position: relative; background: rgb(82, 81, 81); background-size: cover; } 
+footer figure { width: 177px; height: 94px; margin: 0 auto; float: none; position: relative; top: 59px; } 
+footer figure a { width: 64%; height: 112px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ; } 
+footer figure a img { width: 84%; height: 99px; margin: 0 auto; float: none; position: relative;
+  display: block; top: 3px; }
+footer figure a img:hover { color: rgb(7, 243, 7); text-shadow: 0 0 8px rgb(255, 255, 255); transition: all 0.3s ease-in; }
+footer figure h4 { margin: 0; width: 201px; color: #ffff; font-weight: 200; }
+
